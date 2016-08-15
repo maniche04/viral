@@ -24,9 +24,9 @@ nav a {
 }
 
 /* Media Queries */
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 60em) {
 	nav a {
-		margin: 1px 1px;
+		margin: 5px 5px;
 	}
 }
 
@@ -98,7 +98,7 @@ nav a:focus {
 	position: relative;
 	font-size: 8em;
 	line-height: 1;
-	color: #9e9ba4;
+	color: #2195de;
 	display: inline-block;
 }
 
@@ -114,7 +114,8 @@ nav a:focus {
 }
 
 .link--takiri:hover {
-	color: #1e1a1b;
+
+	color: #92d6e2;
 }
 
 .link--takiri::before {
@@ -126,7 +127,7 @@ nav a:focus {
 	margin-top: -18px;
 	left: -10%;
 	z-index: -1;
-	background: #F9F9F9;
+	background: #e9e5e2;
 	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
 	transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
 	-webkit-transition: -webkit-transform 0.5s;
@@ -159,13 +160,29 @@ nav a:focus {
 }
 
 /* Media Queries */
-@media screen and (max-width: 50em) {
-	.link--surinami { font-size: 3em; }
+@media screen and (max-width: 60em) {
+	.link--surinami { font-size: 2em; }
+
 }
 
-@media screen and (max-width: 42em) {
-	.link--takiri { font-size: 3.5em; }
-}
 
+/* For mobile phones: */
+.mobile {
+		visibility:visible;
+	}
+
+	.desktop {
+		visibility:none;
+	}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+		visibility:none;
+	}
+
+	.desktop {
+		visibility:visible;
+	}
+}
 
 
