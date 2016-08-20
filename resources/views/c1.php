@@ -23,6 +23,15 @@
 		The recent study suggets ever growing emphasis of investors and finance community on the use of accountability and sustainability reports for companies. Sustainability standards are expected to be madatory throughout the globe very soon. Singapore, for example has already set the target of 2020 for the mandatory implementation of sustainability reporting. (ACCA Accounting & Business.) Considering these incremental shift from voluntary CSR to mandatory CSR approaches and reporting practices, it would be appropriate to argue that businesses from a compliance view need to make themselfs familiar with CSR and its reporting mechanisms.
 
 
+		RISK AND COMPLIANCE
+	
+		http://www.carrotsandsticks.net/about-carrots-and-sticks/
+		Over the last three years, the total number of sustainability reporting instruments has grown rapidly and significantly worldwide. (Carrots & Sticks published by KPMG International, GRI, United Nations Environment Programme (UNEP), 2016). The report identified 383 reporting initiatives across 64 countries in 2016 compared to 180 instruments in 44 countries in 2013, with the primary reason cited as increasing expectations from businesses to report information not only on their financial performance but also on material aspects of their non-financial performance.
+
+		
+
+
+
 	*/
 ?>
 
