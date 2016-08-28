@@ -163,26 +163,38 @@ nav a:focus {
 @media screen and (max-width: 60em) {
 	.link--surinami { font-size: 2em; }
 
+	The publication of the SEC Staff Report represents an important milestone for the SEC on its multi-year evaluation of International Financial Reporting Standards (IFRS). As such, it should be read within the context of the historic leadership position the SEC has played in fostering a global transition to IFRS.
+In 1973, the SEC supported the involvement of the American Institute of Certified Public Accountants (AICPA) in the creation of the International Accounting Standards Committee (IASC), which was the predecessor to the IASB.1 In a 1997 report to Congress2, the SEC encouraged the efforts of the IASC to develop a core set of accounting standards that could serve as a framework for financial reporting in cross-border offerings.
+In 1999, the SEC took a leading role in the design of the reform of the IASC with regard to its organisation, governance and funding, resulting in the formation of the IASB and in a refocusing of its mission which was now defined as being to develop a single set of high quality global accounting standards. In 2000 the SEC played a leading role in the decision by the International Organization of Securities Commissions (IOSCO) to endorse the IASC core standards for use in cross-border listings.
+In 2007, the SEC voted unanimously to remove the requirement for non-US companies reporting using IFRS as issued by the IASB to provide a detailed reconciliation of profit and equity back to US GAAP. At the same time, the SEC announced its intention to consider whether domestic US companies should also be required or permitted to use IFRS. As commissioner Casey made clear in a speech in 2011:
+“The Commission has already made the determination that IFRS, as issued by the IASB, are of high quality. This determination was necessary to our decision in 2007 to permit foreign private issuers to make filings with the Commission using financial statements prepared in accordance with IFRS without reconciliation to US GAAP.”3
+In November 2008, the SEC set out a proposed ‘Roadmap’, which foresaw that, subject to an assessment of various milestones and considerations, the SEC could be in a position in 2011 to decide whether to require US issuers to use IFRS beginning in 2014, potentially allowing earlier use for certain US issuers from 2009.4
 }
 
 
 /* For mobile phones: */
-.mobile {
-		visibility:visible;
+#mobilemenu {
+		display:block;
+		font-size:0.9em;
 	}
 
-	.desktop {
-		visibility:none;
+	#desktopmenu {
+		display:none;
+		font-size:1em;
 	}
 
 @media only screen and (min-width: 768px) {
-    .mobile {
-		visibility:none;
+	#mobilemenu {
+		display:none;
+		font-size:0.9em;
 	}
 
-	.desktop {
-		visibility:visible;
+	#desktopmenu {
+		display:block;
+		font-size:1em;
 	}
 }
 
+
+<img src =/>
 

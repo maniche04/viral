@@ -15,7 +15,7 @@
         <style>
             html,
             body {
-                height: 100%;
+                height: 97%;
                 font-weight: 400;
             }
            
@@ -26,13 +26,14 @@
                 display: table;
                 font-family: 'Open Sans';
                 font-size: .9em;
-                padding-left:2%;
-                padding-right:2%;
                 background-size: 100% 100%;
 /*                background-image: url("https://intra.jizanperfumes.com/img/appbck.png");
 */
             }
-            
+
+                       
+
+
             .content {
                 text-align: center;
                 display: inline-block;
@@ -65,44 +66,43 @@
 
     <body>
         <div class='ui raised segment' id = 'mainheader'>
-            <div class='ui grid'>
-                <div class='three wide center aligned column desktop'>
-                    <a id = 'mainlogo' class="link link--takiri" href="#">Takiri<span>takiri.com</span></a>
+                <div class = 'ui grid' id = 'desktopmenu'>
+                   <div class='three wide center aligned column '>
+                       <a id = 'mainlogo' class="link link--takiri" href="#">Takiri<span>takiri.com</span></a>
+                   </div>
+                   <div class='twelve wide center aligned column '>
+                       <h5 class="ui horizontal artlabels divider header" >
+                         C A T E G O R I E S
+                       </h5>
+                       <nav class="cl-effect-2" id="mainnav">
+                           <a href="#cl-effect-2"><span data-hover="Ratatouille">Ratatouille</span></a>
+                           <a href="#cl-effect-2"><span data-hover="Lassitude">Lassitude</span></a>
+                           <a href="#cl-effect-2"><span data-hover="Murmurous">Murmurous</span></a>
+                           <a href="#cl-effect-2"><span data-hover="Palimpsest">Palimpsest</span></a>
+                           <a href="#cl-effect-2"><span data-hover="Assemblage">Assemblage</span></a>
+                       </nav>
+                   </div> 
                 </div>
-                <div class='sixteen wide center aligned column mobile'>
-                    <a id = 'mainlogo' class="link link--takiri" href="#">Takiri<span>takiri.com</span></a>
+                <div class = 'ui grid' id = 'mobilemenu'>
+                    <div class='sixteen wide center aligned column'>
+                        <a id = 'mainlogo' class="link link--takiri" href="#">Takiri<span>takiri.com</span></a>
+                    </div>
+                    <div class='sixteen wide center aligned column'>
+                        <h5 class="ui horizontal artlabels divider header" >
+                          C A T E G O R I E S
+                        </h5>
+                        <nav class="cl-effect-2" id="mainnav">
+                            <a href="#cl-effect-2"><span data-hover="Ratatouille">Ratatouille</span></a>
+                            <a href="#cl-effect-2"><span data-hover="Lassitude">Lassitude</span></a>
+                            <a href="#cl-effect-2"><span data-hover="Murmurous">Murmurous</span></a>
+                            <a href="#cl-effect-2"><span data-hover="Palimpsest">Palimpsest</span></a>
+                            <a href="#cl-effect-2"><span data-hover="Assemblage">Assemblage</span></a>
+                        </nav>
+                    </div>
                 </div>
-                <br>
-                <div class='twelve wide left aligned column desktop'>
-                    <h5 class="ui horizontal artlabels divider header" >
-                      C A T E G O R I E S
-                    </h5>
-                    <nav class="cl-effect-2" id="mainnav">
-                        <a href="#cl-effect-2"><span data-hover="Ratatouille">Ratatouille</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Lassitude">Lassitude</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Murmurous">Murmurous</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Palimpsest">Palimpsest</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Assemblage">Assemblage</span></a>
-                    </nav>
-                </div>
-                <div class='sixteen wide center aligned column mobile'>
-                    <h5 class="ui horizontal artlabels divider header" >
-                      C A T E G O R I E S
-                    </h5>
-                    <nav class="cl-effect-2" id="mainnav">
-                        <a href="#cl-effect-2"><span data-hover="Ratatouille">Ratatouille</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Lassitude">Lassitude</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Murmurous">Murmurous</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Palimpsest">Palimpsest</span></a>
-                        <a href="#cl-effect-2"><span data-hover="Assemblage">Assemblage</span></a>
-                    </nav>
-                </div>
-                <div class='one wide column'>
-                </div>
-            </div>
         </div>
         <div class='ui basic segment' id = 'content'>
-            <div class='ui grid'>
+            <div class='ui stackable grid'>
                 <div class='ten wide column'>
                     <div class='ui segments'>
                         <div class = 'ui segment'>
